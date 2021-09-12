@@ -30,7 +30,7 @@ Post.init({
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'comment'
+    modelName: 'post'
 });
 
 module.exports = Post;

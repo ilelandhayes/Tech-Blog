@@ -29,7 +29,7 @@ router.get("/", async (req, res) => {
         ],
     });
 
-    const posts = postData.map((post) => posts.get({ plain: true }));
+    const posts = postData.map(post => post.get({ plain: true }));
 
     res.render('homepage', { 
         posts, 
@@ -38,7 +38,6 @@ router.get("/", async (req, res) => {
 
       res.status(200).json(postData);
     } catch (err) {
-      console.log(err);
       res.status(500).json(err);
     }
 });
