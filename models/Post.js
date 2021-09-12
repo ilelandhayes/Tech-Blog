@@ -32,3 +32,5 @@ Post.init({
     underscored: true,
     modelName: 'comment'
 });
+
+module.exports = Post;

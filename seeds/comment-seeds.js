@@ -13,7 +13,7 @@ const commentData = [{
     },
     {
     comment_text: "Great post, needed this!",
-        user_id: 1,
+        user_id: 2,
         post_id: 3
     }
 ];
